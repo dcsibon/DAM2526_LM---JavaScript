@@ -7,4 +7,5 @@
 ---
 
 ### 1. [Variables y operadores](01_variables_operadores.md)
-### 2. [Estructuras de control y repetición]()
+### 2. [Estructuras de control y repetición](02_estructuras_control.md)
+### 3. [Funciones](03_funciones.md)
