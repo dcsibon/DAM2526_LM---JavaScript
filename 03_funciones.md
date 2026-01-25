@@ -840,6 +840,7 @@ En JavaScript, las funciones no se usan solo para “calcular cosas”. En progr
 Y por eso, dominar funciones (incluyendo closures y hoisting) ayuda a entender cómo funciona JavaScript en aplicaciones reales. ([developer.mozilla.org][6])
 
 > `setTimeout` permite **posponer la ejecución** de una función.
+
 > `clearTimeout` permite **cancelarla si ya no es necesaria**.
 
 Este mecanismo, combinado con funciones, eventos y validación, es una de las herramientas más utilizadas en la programación web moderna.
