@@ -27,7 +27,7 @@ saludar(); // ejecuta el código de la función
 
 ---
 
-### 3.2. Declaración de funciones (Function Declaration)
+### 3.2. Declaración de funciones
 
 La forma más clásica es la **declaración de función**:
 
@@ -211,7 +211,7 @@ console.log(operacion(10, 3)); // 13
 
 **Hoisting** es el comportamiento por el cual ciertas declaraciones “están disponibles” antes en el flujo del programa.
 
-#### 3.8.1. Hoisting en Function Declaration
+#### 3.8.1. Hoisting en "Function Declaration"
 
 Esto funciona:
 
@@ -225,7 +225,7 @@ function sumar(a, b) {
 
 Porque las declaraciones de función pueden ser “elevadas” (hoisted). ([developer.mozilla.org][3])
 
-#### 3.8.2. No hay hoisting en Function Expression
+#### 3.8.2. No hay hoisting en "Function Expression"
 
 Esto NO funciona:
 
@@ -241,7 +241,7 @@ La variable `sumar` (con `const`) existe, pero no se puede usar antes de inicial
 
 ---
 
-### 3.9. Arrow Functions (funciones flecha)
+### 3.9. Arrow Functions (Funciones flecha)
 
 Las funciones flecha son una forma más concisa de escribir function expressions:
 
@@ -295,7 +295,7 @@ ejecutarAccion(function () {
 
 ---
 
-### 3.11. Closures (clausuras) — explicado con detalle
+### 3.11. Closures
 
 Un **closure** ocurre cuando una función “recuerda” variables de su entorno externo (scope léxico), incluso cuando ese entorno ya terminó. ([developer.mozilla.org][6])
 
